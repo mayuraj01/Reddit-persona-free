@@ -34,16 +34,16 @@ It extracts structured insights like age, location, motivations, goals, frustrat
       pip install -r requirements.txt
      
   5. 🔐 Configure Environment Variables
-    Create a .env file in the root directory:
-
-     env
-      REDDIT_CLIENT_ID=your_reddit_app_id
-      REDDIT_CLIENT_SECRET=your_reddit_app_secret
-      REDDIT_USER_AGENT=persona-script
-      
-      OLLAMA_URL=http://localhost:11434
-      OLLAMA_MODEL=llama3
-      You can create Reddit API credentials here: https://www.reddit.com/prefs/apps
+        Create a .env file in the root directory:
+    
+         .env
+          REDDIT_CLIENT_ID=your_reddit_app_id
+          REDDIT_CLIENT_SECRET=your_reddit_app_secret
+          REDDIT_USER_AGENT=persona-script
+          
+          OLLAMA_URL=http://localhost:11434
+          OLLAMA_MODEL=llama3
+          You can create Reddit API credentials here: https://www.reddit.com/prefs/apps
 
   # 🚀 How to Run
   To generate a persona for any public Reddit profile, run:
