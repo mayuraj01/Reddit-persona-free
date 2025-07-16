@@ -1,0 +1,31 @@
+USER PERSONA – {{ p.username }}
+
+Name: {{ p.name or "Unknown" }}        Age: {{ p.age or "?" }}
+Occupation: {{ p.occupation or "Unknown" }}
+Location: {{ p.location or "Unknown" }}
+
+──────────────────────────────────────────
+MOTIVATIONS
+{% for k, v in p.motivations.items() -%}
+• {{ k }} ({{ v }}/10)   ↳ {{ p.citations["motivations"][0]["url"] }}
+{% endfor %}
+GOALS
+{% for g in p.goals -%}
+• {{ g }}   ↳ {{ p.citations["goals"][0]["url"] }}
+{% endfor %}
+FRUSTRATIONS
+{% for f in p.frustrations -%}
+• {{ f }}   ↳ {{ p.citations["frustrations"][0]["url"] }}
+{% endfor %}
+PERSONALITY
+{% for t, s in p.personality.items() -%}
+{{ t|title }}: {{ "%.0f"|format(s * 100) }} %   ↳ {{ p.citations["personality"][0]["url"] }}
+{% endfor %}
+──────────────────────────────────────────
+RAW CITATIONS
+{% for field, cites in p.citations.items() -%}
+{{ field.upper() }}
+{% for c in cites -%}
+  – {{ c.kind }}: {{ c.url }}
+{% endfor %}
+{% endfor %}

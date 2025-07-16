@@ -1,0 +1,37 @@
+USER PERSONA – Hungry-Move-6603
+
+Name: Unknown        Age: ?
+Occupation: Unknown
+Location: Unknown
+
+──────────────────────────────────────────
+MOTIVATIONS
+• Self-Improvement (0/10)   ↳ N/A
+• Financial Security (8/10)   ↳ N/A
+
+GOALS
+• Build side projects   ↳ N/A
+• Learn machine learning   ↳ N/A
+
+FRUSTRATIONS
+• Toxic communities   ↳ N/A
+• Lack of time   ↳ N/A
+
+PERSONALITY
+Introvert: 67 %   ↳ N/A
+Thinking: 58 %   ↳ N/A
+
+──────────────────────────────────────────
+RAW CITATIONS
+MOTIVATIONS
+– llm: N/A
+
+GOALS
+– llm: N/A
+
+FRUSTRATIONS
+– llm: N/A
+
+PERSONALITY
+– llm: N/A
+
