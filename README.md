@@ -3,11 +3,11 @@ This project builds a user persona by analyzing a Reddit user's posts and commen
 It extracts structured insights like age, location, motivations, goals, frustrations, and personality traits — with source citations.
 
 # 📦 Features
-  1.Scrapes Reddit comments & posts
-  2.Extracts facts using regex (age, occupation, etc.)
-  3.Generates deep insights using local LLMs (via Ollama)
-  4.Outputs clean .txt persona files
-  5.Fully offline LLM (no OpenAI API needed)
+    1.Scrapes Reddit comments & posts
+    2.Extracts facts using regex (age, occupation, etc.)
+    3.Generates deep insights using local LLMs (via Ollama)
+    4.Outputs clean .txt persona files
+    5.Fully offline LLM (no OpenAI API needed)
 
 # 🛠️ Setup Instructions
   1. 🔧 Install Ollama
