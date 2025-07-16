@@ -53,19 +53,19 @@ It extracts structured insights like age, location, motivations, goals, frustrat
 📁 Folder Structure
     bash
 
-reddit-persona/
-│
-├── main.py                     # Entry script
-├── .env                        # Environment variables
-├── requirements.txt            # Python dependencies
-├── examples/                   # Output folder
-├── persona/
-│   ├── scraper.py              # Reddit API scraping
-│   ├── extractor.py            # Regex + LLM persona generation
-│   ├── model.py                # Persona dataclass
-│   ├── renderer.py             # Jinja2 .txt output
-│   ├── templates/
-│   │   └── template.txt.j2     # Text template format
+    reddit-persona/
+    │
+    ├── main.py                     # Entry script
+    ├── .env                        # Environment variables
+    ├── requirements.txt            # Python dependencies
+    ├── examples/                   # Output folder
+    ├── persona/
+    │   ├── scraper.py              # Reddit API scraping
+    │   ├── extractor.py            # Regex + LLM persona generation
+    │   ├── model.py                # Persona dataclass
+    │   ├── renderer.py             # Jinja2 .txt output
+    │   ├── templates/
+    │   │   └── template.txt.j2     # Text template format
 
 📌 Notes
 This works entirely offline (after model is downloaded via Ollama).
